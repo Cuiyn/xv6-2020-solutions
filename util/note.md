@@ -31,7 +31,7 @@
    然后，对数组中的每一个元素，若其能被数组第一个元素整除，则将其舍弃。最后，将
    数组传递给下一个进程。
 
-!(https://swtch.com/~rsc/thread/sieve.gif)[素数筛]
+![素数筛](https://swtch.com/~rsc/thread/sieve.gif)
 
 完成实验程序需要细心与认真。在读取管道时，若写端已关闭，则 `read` 函数返回 0。
 
